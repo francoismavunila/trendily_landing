@@ -295,7 +295,7 @@ background-image: linear-gradient(180deg, #080404 0%, #1c248c 100%);
 }
 
 .yeo-do img {
-    max-height: 60px;
+    max-height: 200px;
 }
 
 .yeo-do h3 {
@@ -364,19 +364,21 @@ background-image: linear-gradient(180deg, #080404 0%, #1c248c 100%);
 
 
 .yeo-footer {
-    background: #0a007e;
+    background-image: -webkit-linear-gradient(44deg, #080404 0%, #1c248c 100%);
+    background-image: -o-linear-gradient(44deg, #080404 0%, #1c248c 100%);
+    background-image: linear-gradient(180deg, #1c248c  0%, #080404 100%);
     color: #fff;
     padding: 3rem 0;
 }
 
 .yeo-footer h4 {
     font-size: 1rem;
-    color: #fff;
+    color: #FFF;
 }
 
 .yeo-footer .nav .nav-item a {
     padding: .3rem 0rem;
-    color: #fff;
+    color: #E96AFF;
     opacity: 0.8;
     font-weight: 200;
 }
